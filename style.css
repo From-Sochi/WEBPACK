@@ -422,6 +422,7 @@ button {
   color: #1b1c21; }
 
 .prices__button__offer {
+  max-width: 306px;
   text-align: left;
   background-image: url(./static/rectangle.svg);
   background-repeat: no-repeat;
@@ -510,6 +511,9 @@ button {
   display: flex;
   justify-content: center;
   width: 100%; }
+
+.swiper-horizontal {
+  overflow-x: hidden; }
 
 .footer {
   display: flex;
@@ -921,6 +925,8 @@ button {
     display: flex;
     justify-content: space-between;
     padding: 31px 18px 16px; }
+  .prices__button__offer {
+    max-width: none; }
   th {
     background-color: #f8f8f8;
     opacity: 0.5;
